@@ -4,6 +4,8 @@ from flask import Flask
 from bs4 import BeautifulSoup
 
 app = Flask(__name__)
+app.debug = True
+
 FPMOZ_INFORMATIKA = 'https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=34&Itemid=122&lang=hr'
 
 
@@ -28,7 +30,7 @@ def dohvatiObavijesti():
         data['datum'] = article.dl.dd.span.text.strip()
       else:
         data['datum'] = article.dl.dd.text
-        
+
       if article.p.span:
         data['tekst'] = article.p.span.text.strip()
       else:
@@ -36,3 +38,6 @@ def dohvatiObavijesti():
       finalizedArray.append(data)
 
   return json.dumps(finalizedArray)
+
+  if __name__ == "__main__":
+    app.run()
