@@ -4,5 +4,11 @@ services:
     build: .
     container_name: fpmoz-scraper
     ports:
-      - "5000:5000"
+      - "5050:5050"
+  # redis:
+  #   container_name: redis
+  #   image: redis
+  #   ports:
+  #     - "6389:6389"
+  #   restart: always
     
