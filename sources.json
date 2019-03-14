@@ -1,0 +1,13 @@
+{
+  "fpmoz": {
+    "biologija": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=38&Itemid=126&lang=hr",
+    "fizika": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=37&Itemid=125&lang=hr",
+    "geografija": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=40&Itemid=128&lang=hr",
+    "kemija": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=36&Itemid=124&lang=hr",
+    "informatika": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=34&Itemid=122&lang=hr",
+    "matematika": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=33&Itemid=121&lang=hr",
+    "tehnika": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=35&Itemid=123&lang=hr",
+    "turizam_zastita_okolisa": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=41&Itemid=129&lang=hr",
+    "znanost_okolis": "https://fpmoz.sum.ba/index.php?option=com_content&view=category&id=39&Itemid=127&lang=hr"
+  }
+}
