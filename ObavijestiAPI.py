@@ -10,5 +10,4 @@ def dohvatiObavijesti():
   start = 0
   raw_obavijesti = getObavijesti(int(pageNumber), start, studij)
   parsedObavijesti = parseObavijesti(raw_obavijesti)
-  print(parsedObavijesti)
   return json.dumps(parsedObavijesti)
